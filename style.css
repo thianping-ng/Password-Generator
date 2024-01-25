@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+body{
+    background: #06283d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background: white;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    max-width: 100%;
+    padding: 1rem;
+    padding-right: 2rem;
+    position: relative;
+}
+
+.container-copy{
+    max-width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.container-copy input{
+    width: 100%;
+    height: 50px;
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: 700;    
+}
+
+
+.copy-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#inputSlider{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.separator{
+    max-width: 100%;
+    width: 100%;
+    height: 1px;
+    background: grey;
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+}
+
+#inputSlider{
+    cursor: pointer;
+}
+
+.pass-length{
+    font-size: .7rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pass-length span{
+    position: absolute;
+    right: 0;
+    font-size: 1rem;
+}
+
+
+.low-letter{
+    font-weight: 600;
+    font-size: 1rem;
+    position: relative;
+}
+
+#lowercase{
+    position: absolute;
+    right: 0;
+}
+
+.upper-letter{
+    width: 100%;
+    font-weight: 600;
+    font-size: 1rem;
+    position: relative;
+}
+
+#uppercase{
+    margin-left: 8%;
+    position: absolute;
+    right: 0;
+}
+
+.numbers{
+    width: 100%;
+    font-weight: 600;
+    font-size: 1rem;
+    position: relative;
+}
+
+#number{
+    margin-left: 32%;
+    position: absolute;
+    right: 0;
+}
+
+.symbols{
+    width: 100%;
+    font-weight: 600;
+    font-size: 1rem;
+    position: relative;
+}
+
+#symbol{
+    margin-left: 32%;
+    position: absolute;
+    right: 0;
+}
+
+button{
+    background: #06283d;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 5%;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
